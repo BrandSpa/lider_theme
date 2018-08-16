@@ -1,9 +1,4 @@
-p{
-    font-family: CircularStd-Book, Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: #7E7E7E;
-    line-height: 22px;
-}
+
 .admin-bar .site-navigation-fixed.navigation-top{
     top: 30px
 }
@@ -147,4 +142,12 @@ h1{
 
 .white-text{
     color: #FFFFFF;
+}
+p{
+    &.white-text{
+        font-family: CircularStd-Book, Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #7E7E7E;
+        line-height: 22px;
+    }
 }
