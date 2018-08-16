@@ -10,7 +10,7 @@
 
 ?>
 <div class="site-branding">
-	<div class="wrap">
+	<div class="padding-60">
 
 		<?php the_custom_logo(); ?>
 

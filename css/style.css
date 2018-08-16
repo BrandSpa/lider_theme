@@ -10,6 +10,11 @@ p {
 header .navigation-top {
   background: #301659;
   border-bottom: none; }
+  header .navigation-top .wrap {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    max-width: 100% !important; }
   header .navigation-top .custom-logo-link {
     display: none;
     float: left; }
@@ -55,11 +60,6 @@ header .site-navigation-fixed .custom-logo-link {
           background: #FFFFFF;
           bottom: 0;
           left: 0; }
-
-.padding-60 {
-  width: 100%;
-  padding-left: 60px;
-  padding-right: 60px; }
 
 .header-slider {
   padding-left: 60px;

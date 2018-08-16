@@ -11,6 +11,12 @@ header{
     .navigation-top{
         background: #301659;
         border-bottom: none;
+        .wrap{
+            width: 100%;
+            padding-left: 60px;
+            padding-right: 60px;
+            max-width: 100% !important;
+        }
         .custom-logo-link{
             display:none;
             float:left;
@@ -76,11 +82,6 @@ header{
 
 }
 
-.padding-60{
-    width: 100%;
-    padding-left: 60px;
-    padding-right: 60px;
-}
 
 .header-slider{
     padding-left: 60px;
