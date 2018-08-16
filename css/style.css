@@ -92,6 +92,10 @@ header .site-navigation-fixed .custom-logo-link {
         left: 0;
         width: 100%;
         height: 100%; }
+        .header-slider .header-inner .slider-container .slider .slick-prev {
+          left: 25px; }
+        .header-slider .header-inner .slider-container .slider .slick-next {
+          right: 25px; }
         .header-slider .header-inner .slider-container .slider .slide-img {
           width: 100%; }
 

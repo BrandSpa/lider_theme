@@ -110,6 +110,13 @@ header{
             padding-bottom: 48.02343%;
             overflow: hidden;
             .slider{
+
+                .slick-prev{
+                    left: 25px;
+                }
+                .slick-next{
+                    right: 25px;
+                }
                 overflow: hidden;
                 position: absolute;
                 top: 0;
