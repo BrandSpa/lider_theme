@@ -75,14 +75,6 @@ section {
 	display: block;
 }
 
-
-
-h1 {
-   font-family: "CircularStd-Black";
-	font-size: 2em;
-	margin: 0.67em 0;
-}
-
 figcaption,
 figure,
 main {
@@ -452,53 +444,49 @@ h6:first-child {
 	padding-top: 0;
 }
 
+
+
 h1 {
-	font-size: 24px;
-	font-size: 1.5rem;
-	font-weight: 300;
+  	font-family: "CircularStd-Book";
+	font-size: 3.5em;
+	color: #FFFFFF;
+   	
 }
 
-h2,
-.home.blog .entry-title {
-	color: #666;
-	font-size: 20px;
-	font-size: 1.25rem;
-	font-weight: 300;
-}
-
+h2 {
+ 	font-family: "CircularStd-Book";
+ 	font-size: 3em;
+ 	color: #4663CE;
+	}
+ 
 h3 {
-	color: #333;
-	font-size: 18px;
-	font-size: 1.125rem;
-	font-weight: 300;
+	font-family: "CircularStd-Book";
+ 	font-size: 2em;
+ 	color: #FFFFFF;
 }
 
 h4 {
-	color: #333;
-	font-size: 16px;
-	font-size: 1rem;
-	font-weight: 800;
+	font-family: "CircularStd-Black";
+ 	font-size: 2em;
+ 	color: #FFFFFF;
 }
 
 h5 {
-	color: #767676;
-	font-size: 13px;
-	font-size: 0.8125rem;
-	font-weight: 800;
-	letter-spacing: 0.15em;
-	text-transform: uppercase;
+	font-family: "CircularStd-Book";
+ 	font-size: 1.3em;
+ 	color: #301659;
 }
 
 h6 {
-	color: #333;
-	font-size: 15px;
-	font-size: 0.9375rem;
-	font-weight: 800;
+	
 }
 
 p {
-	margin: 0 0 1.5em;
-	padding: 0;
+	font-family: "CircularStd-Book";
+ 	font-size: 0.9em;
+ 	color: #7E7E7E;
+	line-height: 22px;
+	
 }
 
 dfn,
@@ -1874,7 +1862,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 --------------------------------------------------------------*/
 
 .site-content-contain {
-	background-color: #fff;
+	
 	position: relative;
 }
 
@@ -2306,11 +2294,11 @@ body:not(.twentyseventeen-front-page) .entry-header {
 /*--------------------------------------------------------------
 13.6 Footer
 --------------------------------------------------------------*/
-
+/* Footer widgets 
 .site-footer {
 	border-top: 1px solid #eee;
 }
-
+*/
 .site-footer .wrap {
 	padding-bottom: 1.5em;
 	padding-top: 2em;
@@ -3226,7 +3214,7 @@ p > object:only-child {
 
 @media screen and (min-width: 30em) {
 
-	/* Typography */
+	/* Typography
 
 	body,
 	button,
@@ -3275,6 +3263,9 @@ p > object:only-child {
 		font-size: 0.875rem;
 	}
 
+	 */
+	
+	
 	/* Fix image alignment */
 	img.alignleft {
 		float: left;
