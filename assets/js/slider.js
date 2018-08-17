@@ -25,7 +25,7 @@ $(document).ready(function () {
         var pos = $id.offset().top;
 
         // animated top scrolling
-        $('body, html').animate({scrollTop: pos-20});
+        $('body, html').animate({scrollTop: pos-110});
     });
 })
 
