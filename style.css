@@ -473,7 +473,7 @@ h4 {
 h5 {
 	font-family: "CircularStd-Book";
  	font-size: 1.3em;
- 	color: #301659;
+ 	color: #472C72;
 }
 
 h6 {
@@ -1323,7 +1323,6 @@ a:hover .nav-title,
 
 .navigation-top a {
 	color: #222;
-	font-weight: 600;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
 }
@@ -1398,7 +1397,7 @@ a:hover .nav-title,
 }
 
 .main-navigation a:hover {
-	color: #767676;
+	color: #4663ce;
 }
 
 /* Menu toggle */
